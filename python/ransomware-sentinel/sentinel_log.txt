@@ -1,0 +1,299 @@
+2026-02-18 22:37:02,956 | INFO | Sentinel started.
+2026-02-18 22:37:18,055 | INFO | SAFE | victim.txt | Entropy 3.91
+2026-02-18 22:37:20,070 | WARNING | ATTACK DETECTED | C:\Users\DHARUN\python\my_data_folder\victim.txt | Entropy Spike (3.91 \u2192 7.96)
+2026-02-18 22:37:28,324 | WARNING | FILE QUARANTINED | C:\Users\DHARUN\python\quarantine\victim_1771434448.txt
+2026-02-27 12:21:02,304 | INFO | Sentinel started.
+2026-02-27 12:21:35,542 | INFO | Extension changed: .txt \u2192 .locked
+2026-02-27 12:21:35,543 | INFO | Extension changed: .txt \u2192 .locked
+2026-02-27 12:21:35,544 | INFO | Extension changed: .txt \u2192 .locked
+2026-02-27 12:21:35,544 | INFO | Extension changed: .txt \u2192 .locked
+2026-02-27 12:21:35,544 | INFO | Extension changed: .txt \u2192 .locked
+2026-02-27 12:21:35,545 | INFO | Extension changed: .txt \u2192 .locked
+2026-02-27 12:21:35,545 | INFO | Extension changed: .txt \u2192 .locked
+2026-02-27 12:21:35,545 | INFO | Extension changed: .txt \u2192 .locked
+2026-02-27 12:21:35,545 | INFO | Extension changed: .txt \u2192 .locked
+2026-02-27 12:21:35,546 | WARNING | ATTACK DETECTED | C:\Users\DHARUN\python\my_data_folder\file13.locked | Rapid Extension Change
+2026-02-27 12:22:11,616 | WARNING | FILE QUARANTINED | C:\Users\DHARUN\python\quarantine\file13.locked
+2026-02-27 12:22:11,617 | INFO | Extension changed: .txt \u2192 .locked
+2026-02-27 12:22:11,618 | INFO | Extension changed: .txt \u2192 .locked
+2026-02-27 12:22:11,618 | INFO | Extension changed: .txt \u2192 .locked
+2026-02-27 12:22:11,619 | INFO | Extension changed: .txt \u2192 .locked
+2026-02-27 12:22:11,620 | INFO | Extension changed: .txt \u2192 .locked
+2026-02-27 12:22:40,603 | INFO | SAFE | file0.txt | Entropy 1.92
+2026-02-27 12:24:46,553 | INFO | SAFE | file8.locked | Entropy 1.92
+2026-02-27 12:24:46,555 | INFO | SAFE | file7.locked | Entropy 1.92
+2026-02-27 12:24:46,557 | INFO | SAFE | file2.locked | Entropy 1.92
+2026-02-27 12:24:46,558 | INFO | SAFE | file3.locked | Entropy 1.92
+2026-02-27 12:24:46,559 | INFO | SAFE | file13.locked | Entropy 1.92
+2026-02-27 12:24:46,560 | INFO | SAFE | file14.locked | Entropy 1.92
+2026-02-27 12:24:46,562 | INFO | SAFE | file10.locked | Entropy 1.92
+2026-02-27 12:24:46,564 | INFO | SAFE | file4.locked | Entropy 1.92
+2026-02-27 12:24:46,566 | INFO | SAFE | file0.locked | Entropy 1.92
+2026-02-27 12:24:46,567 | INFO | SAFE | file5.locked | Entropy 1.92
+2026-02-27 12:24:46,568 | INFO | SAFE | file11.locked | Entropy 1.92
+2026-02-27 12:24:46,569 | INFO | SAFE | file12.locked | Entropy 1.92
+2026-02-27 12:24:46,570 | INFO | SAFE | file1.locked | Entropy 1.92
+2026-02-27 12:24:46,571 | INFO | SAFE | file6.locked | Entropy 1.92
+2026-02-27 12:24:46,572 | INFO | SAFE | file9.locked | Entropy 1.92
+2026-02-27 12:26:49,570 | WARNING | ATTACK DETECTED | C:\Users\DHARUN\python\my_data_folder\attack_test.txt | High Entropy (7.95)
+2026-02-27 12:27:08,395 | WARNING | FILE QUARANTINED | C:\Users\DHARUN\python\quarantine\attack_test_1772175428.txt
+2026-02-27 12:28:29,675 | WARNING | ATTACK DETECTED | C:\Users\DHARUN\python\my_data_folder\attack_test.txt | High Entropy (7.95)
+2026-02-27 12:29:11,377 | WARNING | FILE QUARANTINED | C:\Users\DHARUN\python\quarantine\attack_test_1772175551.txt
+2026-02-27 12:30:25,586 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:26,597 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:27,598 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:28,606 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:29,614 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:30,617 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:31,629 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:32,637 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:33,638 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:34,646 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:35,653 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:36,654 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:37,668 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:38,683 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:39,685 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:40,696 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:41,706 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:42,714 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:43,728 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:44,732 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:45,737 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:46,741 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:47,748 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:48,751 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:49,756 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:50,764 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:51,764 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:52,768 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:53,772 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:54,780 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:55,786 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:56,792 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:57,794 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:58,802 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:30:59,811 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:31:00,818 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:31:01,833 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:31:02,846 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:31:03,858 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:31:04,860 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:31:05,860 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:31:06,877 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:31:07,875 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:31:08,878 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:31:09,884 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:31:10,891 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:31:11,899 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:31:12,906 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:31:13,907 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:31:14,919 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:31:15,924 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:31:16,935 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:31:17,939 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:31:18,946 | INFO | SAFE | loop.txt | Entropy 3.02
+2026-02-27 12:31:50,106 | INFO | SAFE | victim.txt | Entropy 3.91
+2026-02-27 12:31:52,116 | WARNING | ATTACK DETECTED | C:\Users\DHARUN\python\my_data_folder\victim.txt | Entropy Spike (3.91 \u2192 7.96)
+2026-02-27 12:32:08,901 | WARNING | FILE QUARANTINED | C:\Users\DHARUN\python\quarantine\victim.txt
+2026-02-27 12:32:38,968 | INFO | SAFE | victim.txt | Entropy 3.91
+2026-02-27 12:32:40,971 | WARNING | ATTACK DETECTED | C:\Users\DHARUN\python\my_data_folder\victim.txt | Entropy Spike (3.91 \u2192 7.96)
+2026-02-27 12:33:14,036 | WARNING | FILE QUARANTINED | C:\Users\DHARUN\python\quarantine\victim.txt
+2026-02-27 12:33:14,037 | INFO | SAFE | file11.txt | Entropy 2.85
+2026-02-27 12:33:14,037 | INFO | SAFE | file20.txt | Entropy 2.85
+2026-02-27 12:33:14,038 | INFO | SAFE | file8.txt | Entropy 2.85
+2026-02-27 12:33:14,038 | INFO | SAFE | file10.txt | Entropy 2.85
+2026-02-27 12:33:14,039 | INFO | SAFE | file14.txt | Entropy 2.85
+2026-02-27 12:33:14,039 | INFO | SAFE | file4.txt | Entropy 2.85
+2026-02-27 12:33:14,040 | INFO | SAFE | file13.txt | Entropy 2.85
+2026-02-27 12:33:14,040 | INFO | SAFE | file0.txt | Entropy 2.85
+2026-02-27 12:33:14,041 | INFO | SAFE | file27.txt | Entropy 2.85
+2026-02-27 12:33:14,041 | INFO | SAFE | file2.txt | Entropy 2.85
+2026-02-27 12:33:14,042 | INFO | SAFE | file25.txt | Entropy 2.85
+2026-02-27 12:33:14,043 | INFO | SAFE | file19.txt | Entropy 2.85
+2026-02-27 12:33:14,043 | INFO | SAFE | file22.txt | Entropy 2.85
+2026-02-27 12:33:14,044 | INFO | SAFE | file16.txt | Entropy 2.85
+2026-02-27 12:33:14,044 | INFO | SAFE | file29.txt | Entropy 2.85
+2026-02-27 12:33:14,045 | INFO | SAFE | file6.txt | Entropy 2.85
+2026-02-27 12:33:14,046 | INFO | SAFE | file24.txt | Entropy 2.85
+2026-02-27 12:33:14,046 | INFO | SAFE | file23.txt | Entropy 2.85
+2026-02-27 12:33:14,046 | INFO | SAFE | file5.txt | Entropy 2.85
+2026-02-27 12:33:14,047 | WARNING | ATTACK DETECTED | C:\Users\DHARUN\python\my_data_folder\file9.txt | Mass File Encryption Behavior
+2026-02-27 12:33:26,256 | WARNING | FILE QUARANTINED | C:\Users\DHARUN\python\quarantine\file9.txt
+2026-02-27 12:33:26,257 | INFO | SAFE | file3.txt | Entropy 2.85
+2026-02-27 12:33:26,258 | INFO | SAFE | file1.txt | Entropy 2.85
+2026-02-27 12:33:26,259 | INFO | SAFE | file15.txt | Entropy 2.85
+2026-02-27 12:33:26,260 | INFO | SAFE | file12.txt | Entropy 2.85
+2026-02-27 12:33:26,261 | INFO | SAFE | file7.txt | Entropy 2.85
+2026-02-27 12:33:26,263 | INFO | SAFE | file18.txt | Entropy 2.85
+2026-02-27 12:33:26,265 | INFO | SAFE | file17.txt | Entropy 2.85
+2026-02-27 12:33:26,266 | INFO | SAFE | file21.txt | Entropy 2.85
+2026-02-27 12:33:26,267 | INFO | SAFE | file28.txt | Entropy 2.85
+2026-02-27 12:33:26,268 | INFO | SAFE | file26.txt | Entropy 2.85
+2026-02-27 12:36:45,642 | INFO | SAFE | file11.txt | Entropy 2.85
+2026-02-27 12:36:45,644 | INFO | SAFE | file20.txt | Entropy 2.85
+2026-02-27 12:36:45,646 | INFO | SAFE | file8.txt | Entropy 2.85
+2026-02-27 12:36:45,656 | INFO | SAFE | file10.txt | Entropy 2.85
+2026-02-27 12:36:45,662 | INFO | SAFE | file14.txt | Entropy 2.85
+2026-02-27 12:36:45,665 | INFO | SAFE | file4.txt | Entropy 2.85
+2026-02-27 12:36:45,677 | INFO | SAFE | file13.txt | Entropy 2.85
+2026-02-27 12:36:45,682 | INFO | SAFE | file0.txt | Entropy 2.85
+2026-02-27 12:36:45,701 | INFO | SAFE | file27.txt | Entropy 2.85
+2026-02-27 12:36:45,715 | INFO | SAFE | file2.txt | Entropy 2.85
+2026-02-27 12:36:45,717 | INFO | SAFE | file25.txt | Entropy 2.85
+2026-02-27 12:36:45,725 | INFO | SAFE | file19.txt | Entropy 2.85
+2026-02-27 12:36:45,726 | INFO | SAFE | file22.txt | Entropy 2.85
+2026-02-27 12:36:45,730 | INFO | SAFE | file16.txt | Entropy 2.85
+2026-02-27 12:36:45,740 | INFO | SAFE | file29.txt | Entropy 2.85
+2026-02-27 12:36:45,743 | INFO | SAFE | file6.txt | Entropy 2.85
+2026-02-27 12:36:45,748 | INFO | SAFE | file24.txt | Entropy 2.85
+2026-02-27 12:36:45,756 | INFO | SAFE | file23.txt | Entropy 2.85
+2026-02-27 12:36:45,758 | INFO | SAFE | file5.txt | Entropy 2.85
+2026-02-27 12:36:45,759 | WARNING | ATTACK DETECTED | C:\Users\DHARUN\python\my_data_folder\file3.txt | Mass File Encryption Behavior
+2026-02-27 12:37:14,408 | ERROR | Quarantine failed: [WinError 2] The system cannot find the file specified
+2026-02-27 12:37:38,353 | INFO | SAFE | file11.txt | Entropy 2.85
+2026-02-27 12:37:38,355 | INFO | SAFE | file20.txt | Entropy 2.85
+2026-02-27 12:37:38,357 | INFO | SAFE | file8.txt | Entropy 2.85
+2026-02-27 12:37:38,358 | INFO | SAFE | file10.txt | Entropy 2.85
+2026-02-27 12:37:38,361 | INFO | SAFE | file14.txt | Entropy 2.85
+2026-02-27 12:37:38,363 | INFO | SAFE | file4.txt | Entropy 2.85
+2026-02-27 12:37:38,366 | INFO | SAFE | file13.txt | Entropy 2.85
+2026-02-27 12:37:38,368 | INFO | SAFE | file0.txt | Entropy 2.85
+2026-02-27 12:37:38,371 | INFO | SAFE | file27.txt | Entropy 2.85
+2026-02-27 12:37:38,372 | INFO | SAFE | file2.txt | Entropy 2.85
+2026-02-27 12:37:38,374 | INFO | SAFE | file25.txt | Entropy 2.85
+2026-02-27 12:37:38,381 | INFO | SAFE | file19.txt | Entropy 2.85
+2026-02-27 12:37:38,382 | INFO | SAFE | file22.txt | Entropy 2.85
+2026-02-27 12:37:38,384 | INFO | SAFE | file16.txt | Entropy 2.85
+2026-02-27 12:37:38,389 | INFO | SAFE | file29.txt | Entropy 2.85
+2026-02-27 12:37:38,392 | INFO | SAFE | file6.txt | Entropy 2.85
+2026-02-27 12:37:38,394 | INFO | SAFE | file24.txt | Entropy 2.85
+2026-02-27 12:37:38,395 | INFO | SAFE | file23.txt | Entropy 2.85
+2026-02-27 12:37:38,397 | INFO | SAFE | file5.txt | Entropy 2.85
+2026-02-27 12:37:38,398 | WARNING | ATTACK DETECTED | C:\Users\DHARUN\python\my_data_folder\file9.txt | Mass File Encryption Behavior
+2026-02-27 12:37:57,212 | WARNING | FILE QUARANTINED | C:\Users\DHARUN\python\quarantine\file9.txt
+2026-02-27 12:37:57,213 | INFO | SAFE | file3.txt | Entropy 2.85
+2026-02-27 12:37:57,215 | INFO | SAFE | file1.txt | Entropy 2.85
+2026-02-27 12:37:57,216 | INFO | SAFE | file15.txt | Entropy 2.85
+2026-02-27 12:37:57,217 | INFO | SAFE | file12.txt | Entropy 2.85
+2026-02-27 12:37:57,218 | INFO | SAFE | file7.txt | Entropy 2.85
+2026-02-27 12:37:57,219 | INFO | SAFE | file18.txt | Entropy 2.85
+2026-02-27 12:37:57,221 | INFO | SAFE | file17.txt | Entropy 2.85
+2026-02-27 12:37:57,223 | INFO | SAFE | file21.txt | Entropy 2.85
+2026-02-27 12:37:57,224 | INFO | SAFE | file28.txt | Entropy 2.85
+2026-02-27 12:37:57,225 | INFO | SAFE | file26.txt | Entropy 2.85
+2026-02-27 15:03:30,445 | INFO | Sentinel started.
+2026-02-27 15:03:39,575 | INFO | SAFE | file0.txt | Entropy 1.92
+2026-02-27 15:03:48,712 | INFO | SAFE | file0.txt | Entropy 2.85
+2026-02-27 15:03:48,713 | INFO | SAFE | file17.txt | Entropy 2.85
+2026-02-27 15:03:48,714 | INFO | SAFE | file18.txt | Entropy 2.85
+2026-02-27 15:03:48,715 | INFO | SAFE | file1.txt | Entropy 2.85
+2026-02-27 15:03:48,715 | INFO | SAFE | file22.txt | Entropy 2.85
+2026-02-27 15:03:48,716 | INFO | SAFE | file15.txt | Entropy 2.85
+2026-02-27 15:03:48,717 | INFO | SAFE | file23.txt | Entropy 2.85
+2026-02-27 15:03:48,718 | INFO | SAFE | file14.txt | Entropy 2.85
+2026-02-27 15:03:48,719 | INFO | SAFE | file2.txt | Entropy 2.85
+2026-02-27 15:03:48,720 | INFO | SAFE | file29.txt | Entropy 2.85
+2026-02-27 15:03:48,720 | INFO | SAFE | file16.txt | Entropy 2.85
+2026-02-27 15:03:48,721 | INFO | SAFE | file9.txt | Entropy 2.85
+2026-02-27 15:03:48,722 | INFO | SAFE | file4.txt | Entropy 2.85
+2026-02-27 15:03:48,723 | INFO | SAFE | file28.txt | Entropy 2.85
+2026-02-27 15:03:48,724 | INFO | SAFE | file27.txt | Entropy 2.85
+2026-02-27 15:03:48,725 | INFO | SAFE | file25.txt | Entropy 2.85
+2026-02-27 15:03:48,726 | INFO | SAFE | file24.txt | Entropy 2.85
+2026-02-27 15:03:48,727 | INFO | SAFE | file21.txt | Entropy 2.85
+2026-02-27 15:03:48,728 | INFO | SAFE | file12.txt | Entropy 2.85
+2026-02-27 15:03:48,729 | WARNING | ATTACK DETECTED | C:\Users\DHARUN\python\my_data_folder\file10.txt | Mass File Encryption Behavior
+2026-02-27 15:04:02,004 | WARNING | FILE QUARANTINED | C:\Users\DHARUN\python\quarantine\file10.txt
+2026-02-27 15:04:02,005 | INFO | SAFE | file5.txt | Entropy 2.85
+2026-02-27 15:04:02,006 | INFO | SAFE | file7.txt | Entropy 2.85
+2026-02-27 15:04:02,007 | INFO | SAFE | file26.txt | Entropy 2.85
+2026-02-27 15:04:02,009 | INFO | SAFE | file3.txt | Entropy 2.85
+2026-02-27 15:04:02,009 | INFO | SAFE | file6.txt | Entropy 2.85
+2026-02-27 15:04:02,010 | INFO | SAFE | file19.txt | Entropy 2.85
+2026-02-27 15:04:02,011 | INFO | SAFE | file8.txt | Entropy 2.85
+2026-02-27 15:04:02,013 | INFO | SAFE | file20.txt | Entropy 2.85
+2026-02-27 15:04:02,014 | INFO | SAFE | file11.txt | Entropy 2.85
+2026-02-27 15:04:02,015 | INFO | SAFE | file13.txt | Entropy 2.85
+2026-02-27 15:05:23,760 | INFO | SAFE | file17.txt | Entropy 2.85
+2026-02-27 15:05:23,761 | INFO | SAFE | file18.txt | Entropy 2.85
+2026-02-27 15:05:23,761 | INFO | SAFE | file1.txt | Entropy 2.85
+2026-02-27 15:05:23,761 | INFO | SAFE | file22.txt | Entropy 2.85
+2026-02-27 15:05:23,761 | INFO | SAFE | file15.txt | Entropy 2.85
+2026-02-27 15:05:23,762 | INFO | SAFE | file23.txt | Entropy 2.85
+2026-02-27 15:05:23,762 | INFO | SAFE | file14.txt | Entropy 2.85
+2026-02-27 15:05:23,762 | INFO | SAFE | file2.txt | Entropy 2.85
+2026-02-27 15:05:23,762 | INFO | SAFE | file29.txt | Entropy 2.85
+2026-02-27 15:05:23,762 | INFO | SAFE | file16.txt | Entropy 2.85
+2026-02-27 15:05:23,762 | INFO | SAFE | file9.txt | Entropy 2.85
+2026-02-27 15:05:23,763 | INFO | SAFE | file4.txt | Entropy 2.85
+2026-02-27 15:05:23,763 | INFO | SAFE | file28.txt | Entropy 2.85
+2026-02-27 15:05:23,763 | INFO | SAFE | file27.txt | Entropy 2.85
+2026-02-27 15:05:23,763 | INFO | SAFE | file25.txt | Entropy 2.85
+2026-02-27 15:05:23,763 | INFO | SAFE | file24.txt | Entropy 2.85
+2026-02-27 15:05:23,764 | INFO | SAFE | file21.txt | Entropy 2.85
+2026-02-27 15:05:23,764 | INFO | SAFE | file0.txt | Entropy 2.85
+2026-02-27 15:05:23,764 | INFO | SAFE | file12.txt | Entropy 2.85
+2026-02-27 15:05:23,764 | WARNING | ATTACK DETECTED | C:\Users\DHARUN\python\my_data_folder\file10.txt | Mass File Encryption Behavior
+2026-02-27 15:05:36,794 | WARNING | FILE QUARANTINED | C:\Users\DHARUN\python\quarantine\file10.txt
+2026-02-27 15:05:36,795 | INFO | SAFE | file5.txt | Entropy 2.85
+2026-02-27 15:05:36,796 | INFO | SAFE | file7.txt | Entropy 2.85
+2026-02-27 15:05:36,797 | INFO | SAFE | file26.txt | Entropy 2.85
+2026-02-27 15:05:36,798 | INFO | SAFE | file3.txt | Entropy 2.85
+2026-02-27 15:05:36,799 | INFO | SAFE | file6.txt | Entropy 2.85
+2026-02-27 15:05:36,800 | INFO | SAFE | file19.txt | Entropy 2.85
+2026-02-27 15:05:36,800 | INFO | SAFE | file8.txt | Entropy 2.85
+2026-02-27 15:05:36,801 | INFO | SAFE | file20.txt | Entropy 2.85
+2026-02-27 15:05:36,803 | INFO | SAFE | file11.txt | Entropy 2.85
+2026-02-27 15:05:36,804 | INFO | SAFE | file13.txt | Entropy 2.85
+2026-02-27 15:06:40,921 | INFO | Sentinel started.
+2026-02-27 15:12:34,026 | INFO | SAFE | file25.txt | Entropy 2.85
+2026-02-27 15:12:34,027 | INFO | SAFE | file27.txt | Entropy 2.85
+2026-02-27 15:12:34,028 | INFO | SAFE | file19.txt | Entropy 2.85
+2026-02-27 15:12:34,028 | INFO | SAFE | file1.txt | Entropy 2.85
+2026-02-27 15:12:34,029 | INFO | SAFE | file0.txt | Entropy 2.85
+2026-02-27 15:12:34,029 | INFO | SAFE | file3.txt | Entropy 2.85
+2026-02-27 15:12:34,030 | INFO | SAFE | file13.txt | Entropy 2.85
+2026-02-27 15:12:34,031 | INFO | SAFE | file17.txt | Entropy 2.85
+2026-02-27 15:12:34,031 | INFO | SAFE | file8.txt | Entropy 2.85
+2026-02-27 15:12:34,031 | INFO | SAFE | file28.txt | Entropy 2.85
+2026-02-27 15:12:34,032 | INFO | SAFE | file24.txt | Entropy 2.85
+2026-02-27 15:12:34,032 | INFO | SAFE | file5.txt | Entropy 2.85
+2026-02-27 15:12:34,033 | INFO | SAFE | file7.txt | Entropy 2.85
+2026-02-27 15:12:34,033 | INFO | SAFE | file10.txt | Entropy 2.85
+2026-02-27 15:12:34,034 | INFO | SAFE | file23.txt | Entropy 2.85
+2026-02-27 15:12:34,035 | INFO | SAFE | file22.txt | Entropy 2.85
+2026-02-27 15:12:34,035 | INFO | SAFE | file15.txt | Entropy 2.85
+2026-02-27 15:12:34,036 | INFO | SAFE | file9.txt | Entropy 2.85
+2026-02-27 15:12:34,036 | INFO | SAFE | file11.txt | Entropy 2.85
+2026-02-27 15:12:34,036 | WARNING | ATTACK DETECTED | C:\Users\DHARUN\python\my_data_folder\file4.txt | Mass File Encryption Behavior
+2026-02-27 15:12:47,001 | WARNING | FILE QUARANTINED | C:\Users\DHARUN\python\quarantine\file4.txt
+2026-02-27 15:12:47,002 | INFO | SAFE | file16.txt | Entropy 2.85
+2026-02-27 15:12:47,003 | INFO | SAFE | file14.txt | Entropy 2.85
+2026-02-27 15:12:47,003 | INFO | SAFE | file21.txt | Entropy 2.85
+2026-02-27 15:12:47,004 | INFO | SAFE | file26.txt | Entropy 2.85
+2026-02-27 15:12:47,004 | INFO | SAFE | file29.txt | Entropy 2.85
+2026-02-27 15:12:47,004 | INFO | SAFE | file20.txt | Entropy 2.85
+2026-02-27 15:12:47,005 | INFO | SAFE | file6.txt | Entropy 2.85
+2026-02-27 15:12:47,005 | INFO | SAFE | file12.txt | Entropy 2.85
+2026-02-27 15:12:47,005 | INFO | SAFE | file2.txt | Entropy 2.85
+2026-02-27 15:12:47,006 | INFO | SAFE | file18.txt | Entropy 2.85
+2026-02-27 15:13:22,294 | INFO | SAFE | file4.locked | Entropy 1.92
+2026-02-27 15:13:22,294 | INFO | Extension changed: .txt \u2192 .locked
+2026-02-27 15:13:22,296 | INFO | Extension changed: .txt \u2192 .locked
+2026-02-27 15:13:22,297 | INFO | Extension changed: .txt \u2192 .locked
+2026-02-27 15:13:22,297 | INFO | Extension changed: .txt \u2192 .locked
+2026-02-27 15:13:22,297 | INFO | Extension changed: .txt \u2192 .locked
+2026-02-27 15:13:22,297 | INFO | Extension changed: .txt \u2192 .locked
+2026-02-27 15:13:22,297 | INFO | Extension changed: .txt \u2192 .locked
+2026-02-27 15:13:22,297 | INFO | Extension changed: .txt \u2192 .locked
+2026-02-27 15:13:22,297 | INFO | Extension changed: .txt \u2192 .locked
+2026-02-27 15:13:22,297 | WARNING | ATTACK DETECTED | C:\Users\DHARUN\python\my_data_folder\file6.locked | Rapid Extension Change
+2026-02-27 15:13:34,666 | WARNING | FILE QUARANTINED | C:\Users\DHARUN\python\quarantine\file6.locked
+2026-02-27 15:13:34,667 | INFO | Extension changed: .txt \u2192 .locked
+2026-02-27 15:13:34,667 | INFO | Extension changed: .txt \u2192 .locked
+2026-02-27 15:13:34,667 | INFO | Extension changed: .txt \u2192 .locked
+2026-02-27 15:13:34,668 | INFO | Extension changed: .txt \u2192 .locked
+2026-02-27 15:15:38,943 | WARNING | ATTACK DETECTED | C:\Users\DHARUN\python\my_data_folder\attack_test.txt | High Entropy (7.95)
+2026-02-27 15:15:45,836 | WARNING | PROCESS KILLED | python.exe | PID 22636
+2026-02-27 15:15:46,041 | WARNING | FILE QUARANTINED | C:\Users\DHARUN\python\quarantine\attack_test.txt
